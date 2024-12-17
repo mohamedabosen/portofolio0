@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.highlight {
+    color: #00f; /* لون كلمة team */
+}
+
+.button {
+    background-color: #6200ea;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.button:hover {
+    background-color: #3700b3;
+    color: #Fff;
+}
+
+.nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+width: 100%;
+
+}
+.logo  {
+    margin-left: 30px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: white;
+    height: 150px;
+width: 150px;
+border-radius: 50px;
+}
+
+
+.list1 {
+list-style: none;
+float: right;
+margin-right: 150px;
+}
+
+.list1 li {
+display: inline-block;
+margin-left: 50px;
+background-color: 1A4870;
+width:  70px;
+text-align: center;
+margin-top: 7px;
+height: 20px;
+}
+
+.list1 li  a {
+text-decoration: none;
+color :#Fff;
+}

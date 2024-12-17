@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>ROYAL TEAM</title>
+ <link rel="stylesheet" href="css/about.css">
+ <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+ <div class="nav">
+    <img class="logo" src="images/WhatsApp Image 2024-12-08 at 22.35.26_4c4f46b6.jpg"  alt="">
+    <ul class="list1">
+        <li><a href="index.html">home</a></li>
+        <li><a href="about.html">about </a></li>
+        <li><a href="contact.html">Members</a></li>
+      
+        </ul>
+</div>
+ <main>
+ <section id="about" class="project-info">
+ <h2 class="h2"> Smart Baby Bed </h2>
+ <img   class="img1" src="images/bed.jpg" alt="">
+ 
+<p class="paragraph"> &nbsp;  When a new baby is born, parents often face numerous challenges due to difficulties in communicating with the child and understanding their needs. The baby's frequent crying increases the parents' stress, as they struggle to identify the cause and address the issue affecting the child.</p>
+   <p class="paragraph" >This situation negatively impacts the caregiver. Persistent worry and sleepless nights make it hard for them to perform well at work or carry out daily activities. Over time, this lack of sleep could lead to neglecting responsibilities and even result in job loss.</p>
+   <img   class="img1" src="images/qr1.png" alt="">
+
+   <p class="paragraph" >&nbsp;  To address this issue, our team (The Royal Team) decided to develop a solution that tackles these challenges while offering multiple functionalities. Our project introduces a smart baby bed equipped with advanced features. Using artificial intelligence, the bed can analyze the baby's cries to identify the underlying problem and initiate appropriate actions to resolve it.</p>
+   <p class="paragraph" >&nbsp;  In this report, we will explore the components of our project, delve into its full details, and explain how it can be effectively utilized.</p>
+   <p class="paragraph" > &nbsp;  When the baby starts crying, the artificial intelligence system analyzes the type of cry and classifies it into one of five categories, each indicating a specific issue the baby is facing: belly pain, burping, discomfort, hunger, or tiredness.</p>
+   <img class ='img1' src="images/bed2.jpg" alt="">
+
+   <p class="paragraph" >&nbsp;  If the AI detects that the cause of the crying is discomfort, the smart bed activates gentle vibrations to soothe the baby and help them fall back asleep, eliminating the need for a caregiver's immediate presence.</p>
+   <p class="paragraph" > &nbsp;  If the AI identifies tiredness as the cause, the smart bed sends an alert to the caregiver via a connected application. The app provides real-time readings of the baby’s vital signs, including heartbeat, body temperature, ambient temperature, and humidity. If the AI detects a high temperature, it issues an urgent alert to help the caregiver respond promptly.</p>
+   <p class="paragraph" >&nbsp;  If the AI classifies the cause of crying as burping, the smart bed initiates vibrations and sends a notification to the application, alerting the caregiver to the issue.</p>
+   <p class="paragraph" > &nbsp;   The smart bed also includes safety features to protect the baby. It is equipped with an alarm system that activates during emergencies, such as fires, gas leaks, or smoke. In such cases, the smart bed alerts the caregiver with an audible alarm to ensure the baby’s safety. </p>
+   
+   <p class="paragraph" >&nbsp;  Additionally, the smart bed is supported by a website that provides detailed instructions on how to use it, connect to the app, and get started effectively.</p>
+  
+
+   <h2 class="h2"> 	Artificial Intelligence </h2>
+   <img   class="img1" src="images/ras.jpg" alt="">
+   <p class="paragraph" > &nbsp;  We developed an artificial intelligence model that processes a child's voice, analyzes it, classifies it into five categories (belly pain, burping, discomfort, hunger, or tiredness), and filters out background noise.
+
+      This component is a fundamental part of the project.</p>
+
+     
+      <p class="paragraph" >It records the sound for 5 seconds when it senses the baby crying, then stops the recording for 3 seconds, then records for another 5 seconds to ensure that the crying is stable and to determine the classification correctly</p>
+      <br>
+      <br>
+      <br>
+      
+
+      <h2 class="h2"> power supply </h2>
+      <img   class="img1" src="images/power.jpg" alt="">
+      <p class="paragraph" > &nbsp;The power supply is the most important main component in the smart bed, and once it is disabled, the project stops working completely. Therefore, it is an electrical transformer that converts the electrical
+         voltage from 220 volts to the valuable voltages that the project and all its parts need in order to function properly,
+         which are (12, 5, and 9) Volt
+         </p>
+       <br>
+       <br>
+      
+
+       <h2 class="h2"> Movement mechanism </h2>
+       <img   class="img1" src="images/diagram.jpg" alt="">
+   <p class="paragraph" >When a baby starts crying, the AI determines that the reason for the crying is discomfort or colic. The smart bed begins to move automatically forward and backward, and the type
+      of movement is slow and appropriate for the child’s age so that the child regains his comfort without the need for a guardian.</p>
+
+   <p class="paragraph" ></p>
+   <h2 class="h2"> Components</h2>
+
+   <p class="paragraph" >1- Raspberry <br>
+      2-NEMA 23 Stepper Motor <br>
+       3-TB6600 Stepper Motor Driver <br>
+      4-12V DC Power Supply <br>
+      5-Jumper Wires <br>
+      </p>
+      >
+
+      <h2 class="h2"> Measure Heart Rate</h2>
+      <img   class="img1" src="images/pulse.jpg" alt="">
+   <p class="paragraph" >&nbsp;It is used in the smart bed to measure the child's heart rate and send the result to the application.
+ (Pulse Sensor) is a finger-mounted heart rate measuring device that relies on light technology originating in blood flow.
+       It contains an LED (green) that sends light to the skin and uses a photodiode to receive the
+      bounced light and when measuring blood, the light does not vary depending on the amount of blood, allowing the heart rate to increase.
+      The sensor outputs signals (analog signals) based on the pulse.
+      </p>
+      <h2 class="h2"> Normal Rate </h2>
+   <p class="paragraph" >&nbsp;From birth to one month =>	From 100 to 160 beats per minute
+      From one month to one year old => From 90 to 150 beats per minute
+      </p>
+      <h2 class="h2"> 	Measure body temperature </h2>
+      <img   class="img1" src="images/temp.jpg" alt="">
+   <p class="paragraph" >&nbsp;It is used in the smart bed to measure the child’s temperature and send the
+      result to the application.
+      The	sensor	is	used	to	measure	the	child’s
+      temperature through 7 places on the body, such
+      as the mouth, under the armpit, and so on, and each place differs from the other by a slight difference Armpit temperatures
+      are usually less	accurate	than the other two options
+      </p>
+      
+      <h2 class="h2"> Normal Rate </h2>
+
+   <p class="paragraph" > the normal temperature is <br>
+
+      1-	From the lips( 36.1 to 37.2) <br>
+      2-	From under the armpit( 35.5 to 37) <br>
+      3-	From the ear or anus( 36.6 to 38) <br>
+      
+      
+      &nbsp; If the newborn’s temperature reaches 38 degrees, this means that he is
+      infected, and it is recommended to monitor the symptoms and consult a doctor.
+     x
+
+      <h2 class="h2"> 	Lighting control </h2>
+      <img   class="img1" src="images/light.jpg" alt="">
+   
+      <p class="paragraph" >&nbsp;One of the features of the smart bed is that it contains a set of electronic circuits to create an integrated smart bed that contains lighting and a lighting control circuit via the remote. The guardian can operate the smart bed to start working and control the operation of the bed’s lighting with the remote.   </p>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h2 class="h2"> 	Amplifier </h2>
+   <p class="paragraph" >Among the features of the smart bed is that it contains a set of electronic circuits to create an integrated smart bed that contains a speaker. The guardian of the newborn can turn on the speaker to play sounds that suit the child’s age.</p>
+      <img   class="img1" src="images/amp.jpg" alt="">
+      <p class="paragraph1" >&nbsp;A loudspeaker circuit is a group of electronic components that work together to convert weak electrical signals, such as
+         those issued by a computer or music player, into strong electrical signals capable of moving the speaker cone and producing the sound that we hear.</p>
+   <p class="paragraph" ></p>
+   <p class="paragraph" ></p>
+   <p class="paragraph" ></p>
+   <p class="paragraph" ></p>
+   <p class="paragraph" ></p>
+   <p class="paragraph" ></p>
+   <p class="paragraph" ></p>
+</section>
+<section id="about" class="project-info">
+    <h2 class="h2">Operating method</h2>
+    <img   class="img1" src="images/app1.jpg" alt="">
+   <p class="paragraph">First, connect the power cable and press the power button</p>
+   
+   <p class="paragraph">&nbsp;&nbsp;Place the child on the bed, then place the sensors on him,
+There are sensors to measure the child’s temperature, heart rate, and blood oxygen levels, along with sensors for gas, fires, and room temperature,The rest of the sensors will be located on the bed
+   </p>
+   
+
+   <p class="paragraph">&nbsp;&nbsp; Place the temperature sensor in the child's mouth or under the armpit,As for the heart rate sensor, place it on the child’s head or hand, preferably on his hand</p>
+   <p class="paragraph">Secondly, install the bed application <a href="">from here</a></p>
+   <img class ='img1' src="images/app2.jpg" alt="">
+   <p class="paragraph">The application is designed so that you can monitor your child through it</p>
+   <p class="paragraph">Log in to the application and then connect it to the bed via Bluetooth,as in the video <video width="640" height="360" controls>
+    <source src="images/app.mp4" type="video/mp4">
+    <source src="images/app.mp4" type="video/ogg">
+</video></p>
+   <p class="paragraph">The application will start warning you if your child's temperature drops below 36 degrees Celsius or exceeds 37.5 degrees Celsius,It will also warn you if the heart rate drops below 100 beats per minute or exceeds 160 beats per minute.</p>
+   <p class="paragraph" >If your child needs medicine, food, drink, or sleep, the application will alert you as well</p>
+   <p class="paragraph" ></p>
+   <p class="paragraph" ></p>
+   <p class="paragraph" ></p>
+   </section>
+
+ <section id="gallery" class="gallery">
+ 
+   <h2 class="h2">Team Photo</h2>
+   <img class="img2" src="images/team.jpg" alt="">
+   <img class="img2" src="images/team2.jpg" alt="">
+   <br>
+   <br>
+   <br>
+   <h2 class="h2">Team logo</h2>
+   <br>
+   <br>
+   <img class="img3"  src="images/logo.jpg" alt="">
+
+
+ <div class="images">
